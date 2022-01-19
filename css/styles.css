@@ -1,0 +1,152 @@
+/*title*/
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.heading {
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.container-fluid1{
+    padding-top: 3%;
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+body{
+    font-family: "Montserrat";
+}
+
+.navbar-brand1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar {
+    padding-bottom: 5%;
+}
+.nav-item {
+    padding: 0 18px;
+    font-family: "monteserrat-light"
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.imagedog {
+    width: 60%;
+    transform: rotate(25deg);
+    right: 40%;
+}
+
+/*feature*/
+
+.icon-feature {
+    color: #ff4c68;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+.icon-feature:hover{
+    color: #d12841;
+}
+ 
+#features {
+    padding: 7% 15%;
+    background-color: white;
+}
+.feature-box {
+    text-align: center;
+}
+p {
+    color: #8f8f8f;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+/*testimonial*/
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+.carousel-item {
+    padding: 15% 15%;
+}
+.heading-testimonial {
+    color: white;
+    font-family: "Monteserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.picture1 {
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 5%;
+}
+
+/*press*/
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.image {
+    width: 15%;
+    margin: 20px 20px 50px
+}
+
+/*pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 2% 3%;
+}
+
+/*call to action*/
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+h3 {
+    font-weight: bold;
+    padding-top: 5%;
+    font-size: 2rem;
+}
+
+
+/*footer*/
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+}
+.p-footer {
+    padding-bottom: 5%;
+}
+.footer-icon {
+    padding: 5% 3px 0 3px;
+}
+
+
+
+@media (max-width: 1028px) {
+    .imagedog {
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
